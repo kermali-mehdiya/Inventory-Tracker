@@ -5,22 +5,19 @@
 This project was created for the Shopify Backend Developer Intern Challange - Summer 2022. 
 It is an inventory tracking web application for a logistics company that has CRUD functionality (create inventory items, edit, delete, and view a list of them), as well as an additional feature which is exporting the product data to a CSV file (Excel Spreadsheet). 
 
-### Demo 
+## Demo 
 https://youtu.be/HdQaV9lVgxg
 
-#### How to run the application
+### Before you run the application, please make sure you have the following tools installed:
+**VSCode**: https://code.visualstudio.com/download
 
-1. Make sure you have **VSCode** installed. 
-   
-   If not, you can download it here: https://code.visualstudio.com/download
-   
-2. You will also need to have **Python 3.7+** installed. 
+**Python 3.7+**: https://www.python.org/downloads/
 
-   You can download the latest version of Python here: https://www.python.org/downloads/
-   
-3. Please install **pgAdmin 4** if you do not already have it installed from here: https://www.pgadmin.org/download/
+**pgAdmin 4**: https://www.pgadmin.org/download/
 
-4. Please install Postgresql as well. You can download it from here: https://www.postgresql.org/download/
+**Postgresql**:  https://www.postgresql.org/download/
+
+### How to run the application
    
 3. Clone the git repository using the following command: 
    
@@ -31,6 +28,8 @@ https://youtu.be/HdQaV9lVgxg
 6. Open pgAdmin 4. After setting your master password, you will need to create a new user to connect to the server.
 7. In VSCode, open a new terminal and enter the following command: `python3 manage.py runserver`
    
-   This will open the application on port `:8000`. 
-8. 
+   This will open the application on port `:8000`.
+   
+
+
   
