@@ -15,18 +15,27 @@ https://youtu.be/HdQaV9lVgxg
 
 **pgAdmin 4**: https://www.pgadmin.org/download/
 
-**Postgresql**:  https://www.postgresql.org/download/
+**PostgreSQL**:  https://www.postgresql.org/download/
 
 ### How to run the application
    
-3. Clone the git repository using the following command: 
+1. Clone the git repository using the following command: 
    
    `git clone https://github.com/kermali-mehdiya/Shopify-Backend-Dev-Challenge.git`
     
-4. Open a terminal / command prompt in the root of the project's folder (folder is called _inventory_manager_)
-5. Run the following command to open the project in VSCode: `code .` 
-6. Open pgAdmin 4. After setting your master password, you will need to create a new user to connect to the server.
-7. In VSCode, open a new terminal and enter the following command: `python3 manage.py runserver`
+2. Open a terminal / command prompt in the root of the project's folder (folder is called _inventory_manager_)
+3. Run the following command to open the project in VSCode: `code .` 
+4. Open pgAdmin 4. After setting your master password, you will need to set up a PostgreSQL Database. To do so, please refer to the following links depending on your operating system. Make sure the username is `postgresql` when creating a new user. Also, make sure the name of the database is `InventoryDB`.
+
+**Windows:** https://www.microfocus.com/documentation/idol/IDOL_12_0/MediaServer/Guides/html/English/Content/Getting_Started/Configure/_TRN_Set_up_PostgreSQL.htm
+
+**Linux:** https://www.microfocus.com/documentation/idol/IDOL_12_0/MediaServer/Guides/html/English/Content/Getting_Started/Configure/_TRN_Set_up_PostgreSQL_Linux.htm
+
+**Mac:**
+https://www.sqlshack.com/setting-up-a-postgresql-database-on-mac/
+
+6. Once connected to the server, go back to VSCode and open a new terminal. 
+   Enter the following command: `python3 manage.py runserver`
    
    This will open the application on port `:8000`.
    
