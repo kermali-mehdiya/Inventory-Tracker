@@ -7,8 +7,8 @@
 |   +--● templates
 |   |  |--● inventory_register
 |   |  |  |--base.html
-|   |  |  |--employee_form.html
-|   |  |  |--employee_list.html
+|   |  |  |--product_form.html
+|   |  |  |--product_list.html
 |   | 
 |   |-- models.py
 |   |-- forms.py
