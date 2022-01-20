@@ -34,7 +34,7 @@ https://youtu.be/HdQaV9lVgxg
 **Mac:**
 https://www.sqlshack.com/setting-up-a-postgresql-database-on-mac/
 
-6. Once connected to the server, go back to VSCode and open a new terminal. 
+5. Once connected to the server, go back to VSCode and open a new terminal. 
    Enter the following command: `python3 manage.py runserver`
    
    This will open the application on port `:8000`.
